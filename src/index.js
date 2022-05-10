@@ -1,4 +1,4 @@
 import './style.css';
-import displayScore from './createEntry.js';
+import displayScore from './modules/createEntry.js';
 
 displayScore();
