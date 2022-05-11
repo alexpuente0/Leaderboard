@@ -2,12 +2,12 @@ import scoreKeep from './scores.js';
 
 const displayScore = () => {
   const scoreList = document.querySelector('.scorelist');
-  for (let i = 0; i < scoreKeep.length; i += 1) {
+  scoreKeep.forEach((entry) => {
     const scoreItem = document.createElement('li');
     scoreItem.innerHTML = `
-    <p> ${scoreKeep[i].name} : ${scoreKeep[i].score}</p>`;
+    <p> ${entry.name} : ${entry.score}</p>`;
     scoreList.append(scoreItem);
-  }
+  });
 };
 
 export default displayScore;
