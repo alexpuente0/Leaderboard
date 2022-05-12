@@ -68,6 +68,12 @@ li p {
   font-weight: bold;
 }
 
+.scitem {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px 0 10px;
+}
+
 .btn {
   background: linear-gradient(to bottom, #76451c, #e5c87f, #76451c);
   filter: drop-shadow(2px 2px 2px black);
