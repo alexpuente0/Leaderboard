@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top Scores</title>
+<script defer src="/runtime.js"></script><script defer src="/main.js"></script></head>
+
+<body>
+  <section class="main">
+<h1>Leaderboard</h1>
+   <div class="content-box">
+     <div class="scores">
+       <div class="refresher">
+     <h2>Recent scores</h2>
+     <button type="button" class="refbtn btn">Refresh</button>
+     </div>
+     <ul class="scorelist">
+     </ul>
+       </div>
+   <form class="addnew" name="addnew">
+     <h2>Add your score</h2>
+     <input type="text" id="user" placeholder="Your name" required/>
+     <input type="text" id="score" placeholder="Your score" required/>
+     <button type="submit" class="sbmtbtn btn">Submit</button>
+   </form> 
+    </div>
+   </section>
+   <section>
+      <div class="msg"><p id="message">Your score has been added to the list</p></div>
+   </section>
+</body>
+</html>
