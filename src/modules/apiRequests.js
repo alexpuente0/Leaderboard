@@ -1,6 +1,6 @@
 import displayScore from './display.js';
 
-const URL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Xzwhz3xZlx89BYaRt8Lw/scores';
+const URL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Xzwhz3xZlx98BYaRt5Lw/scores';
 
 const getScoreList = async () => {
   const scores = await fetch(URL);
