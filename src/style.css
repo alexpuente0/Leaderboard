@@ -77,7 +77,7 @@ li p {
 }
 
 .btn:hover {
- color: #76451c;
+  color: #76451c;
 }
 
 .sbmtbtn {
@@ -91,7 +91,7 @@ input {
 }
 
 .msg {
-  display:none;
+  display: none;
   justify-content: space-around;
 }
 
