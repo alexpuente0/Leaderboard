@@ -32,7 +32,7 @@ In this project we created an interactive page to add elements to a list using E
 
 ## Live Demo
 
-Coming Soon
+- Watch the project live [here](https://alexpuente0.github.io/Leaderboard/)
 
 ## Author
 
@@ -54,9 +54,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Code Reviewers
-- Learning Partners
-- Microverse Staff and Micronauts
+- Background by Macrovector @ [Freepik](https://www.freepik.es/macrovector)
 
 ## 📝 License
 
