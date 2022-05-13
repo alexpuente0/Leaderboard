@@ -94,6 +94,17 @@ li p {
 input {
   border: 2px solid black;
   border-radius: 5px;
+  
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 .msg {
