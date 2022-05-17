@@ -56,6 +56,12 @@ body {
   gap: 3px;
   border-radius: 5px;
   background-color: #d4bd82;
+  height: 207px;
+  overflow-y: scroll;
+}
+
+.scorelist::-webkit-scrollbar {
+  width: 2px;
 }
 
 li:nth-child(even) {
