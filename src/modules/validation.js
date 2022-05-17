@@ -7,19 +7,10 @@ const userError = () => {
   user.style.border = '2px solid #bd1212';
 };
 
-const scoreError = () => {
-  score.placeholder = 'Error: Insert Name';
-  score.style.backgroundColor = '#ffc0cb';
-  score.style.border = '2px solid #bd1212';
-};
-
 const resetStyle = () => {
   user.placeholder = 'Your Name';
   user.style.backgroundColor = '#fff';
   user.style.border = '2px solid #000';
-  score.placeholder = 'Your Score';
-  score.style.backgroundColor = '#fff';
-  score.style.border = '2px solid #000';
 };
 
 const hideMsg = () => {
@@ -32,5 +23,5 @@ const showMsg = () => {
 };
 
 export {
-  userError, scoreError, resetStyle, showMsg,
+  userError, resetStyle, showMsg
 };
